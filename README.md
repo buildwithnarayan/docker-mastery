@@ -1,118 +1,234 @@
-# 🐳 Docker-Mastery
+# 🐳 Docker Mastery
 
-A practical, DevOps-focused Docker learning repository by **BuildWithNarayan**.
+A practical, structured Docker learning path for DevOps engineers.
 
-This repository is the next step after [Git-Mastery](https://github.com/buildwithnarayan/git-mastery), focusing on containerization, Docker workflows, CI/CD integration, and real-world DevOps practices.
+Docker Mastery is designed to take you from Docker fundamentals to production-ready container practices, CI/CD integration, troubleshooting, security, and advanced DevOps concepts.
 
-## 🎯 Goal
+> **Current Release: v1.0.0 — Docker D01–D15 Complete**
 
-Learn Docker from fundamentals to practical DevOps usage without turning the course into an unnecessarily large reference book.
+---
 
-The learning approach is:
+## 🎯 Learning Goal
 
-> **Concept → Why it matters → Commands → Hands-on → DevOps use case → Troubleshooting → Best practices**
+By completing this repository, you should be comfortable with:
 
-## 🗺️ Roadmap
+- Docker fundamentals
+- Images and containers
+- Dockerfiles
+- Image layers and caching
+- Multi-stage builds
+- Container networking
+- Volumes and persistent storage
+- Docker Compose
+- Registries
+- Image tagging
+- Docker security
+- Production practices
+- CI/CD integration
+- Docker troubleshooting
+- Container deployment strategies
+- Docker vs VM
+- Docker vs Kubernetes
 
-### Phase 1 — Docker Fundamentals
+---
+
+## 📚 Course Structure
 
 | Module | Topic | Status |
 |---|---|---|
-| D01 | Introduction to Docker | ✅ Completed |
-| D02 | Docker Architecture | ⏳ |
-| D03 | Images & Containers | ⏳ |
-| D04 | Essential Docker Commands | ⏳ |
-| D05 | Dockerfile | ⏳ |
-| D06 | Building & Tagging Images | ⏳ |
-| D07 | Docker Networking | ⏳ |
-| D08 | Docker Volumes | ⏳ |
-| D09 | Docker Registry & Docker Hub | ⏳ |
-| D10 | Docker Compose | ⏳ |
+| D01 | Docker Introduction & Fundamentals | ✅ |
+| D02 | Docker Images & Dockerfiles | ✅ |
+| D03 | Docker Containers | ✅ |
+| D04 | Docker Storage & Volumes | ✅ |
+| D05 | Docker Networking | ✅ |
+| D06 | Docker Compose | ✅ |
+| D07 | Docker Image Management & Registries | ✅ |
+| D08 | Docker Security Fundamentals | ✅ |
+| D09 | Docker Advanced Networking | ✅ |
+| D10 | Docker Production Fundamentals | ✅ |
+| D11 | Docker CI/CD Integration | ✅ |
+| D12 | Docker Troubleshooting | ✅ |
+| D13 | Docker Deployment & Operations | ✅ |
+| D14 | Docker Production Practices & Deployment Patterns | ✅ |
+| D15 | Docker Advanced Concepts & DevOps Interview Preparation | ✅ |
 
-### Phase 2 — DevOps Docker
+---
 
-| Module | Topic | Status |
-|---|---|---|
-| D11 | Multi-Container Applications | ⏳ |
-| D12 | Docker Security | ⏳ |
-| D13 | Dockerfile Best Practices | ⏳ |
-| D14 | Docker Troubleshooting | ⏳ |
-| D15 | Docker in CI/CD | ⏳ |
-| D16 | Real-World Docker Project | ⏳ |
-
-## 📁 Repository Structure
+## 🗺️ Learning Path
 
 ```text
-Docker-Mastery/
-│
-├── README.md
+Git Mastery
+     │
+     ▼
+Docker Mastery
+     │
+     ├── Fundamentals
+     ├── Images
+     ├── Containers
+     ├── Storage
+     ├── Networking
+     ├── Compose
+     ├── Security
+     ├── Registries
+     ├── CI/CD
+     ├── Troubleshooting
+     └── Production
+     │
+     ▼
+Kubernetes Mastery
+     │
+     ├── Architecture
+     ├── Pods
+     ├── Deployments
+     ├── Services
+     ├── ConfigMaps
+     ├── Secrets
+     ├── Storage
+     ├── Networking
+     ├── Security
+     ├── Helm
+     └── Production Operations
+```
+
+---
+
+## 🧱 Repository Structure
+
+```text
+docker-mastery/
 │
 ├── fundamentals/
-│   ├── 01-introduction-to-docker/
-│   │   ├── README.md
-│   │   └── commands.md
-│   │
-│   ├── 02-docker-architecture/
-│   ├── 03-images-and-containers/
-│   ├── 04-essential-docker-commands/
-│   ├── 05-dockerfile/
-│   ├── 06-building-and-tagging-images/
-│   ├── 07-docker-networking/
-│   ├── 08-docker-volumes/
-│   ├── 09-docker-registry/
-│   └── 10-docker-compose/
+│   ├── 01-...
+│   ├── 02-...
+│   ├── ...
+│   └── 15-docker-advanced-concepts-and-devops-interview/
 │
-├── devops/
-│   ├── 11-multi-container-applications/
-│   ├── 12-docker-security/
-│   ├── 13-dockerfile-best-practices/
-│   ├── 14-docker-troubleshooting/
-│   ├── 15-docker-ci-cd/
-│   └── 16-real-world-project/
+├── .github/
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   └── learning_issue.md
+│   └── pull_request_template.md
 │
-└── projects/
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CHANGELOG.md
+├── SECURITY.md
+├── CODE_OF_CONDUCT.md
+├── .gitignore
+└── .dockerignore
 ```
 
-## 🧠 Learning Progression
+---
+
+## 🧪 Practical Learning Philosophy
+
+This repository follows:
 
 ```text
-Git & GitHub
-     ↓
-Docker
-     ↓
-Kubernetes
-     ↓
-CI/CD
-     ↓
-Cloud & Infrastructure
-     ↓
-Advanced DevOps
+Learn
+  ↓
+Understand
+  ↓
+Practice
+  ↓
+Troubleshoot
+  ↓
+Apply in DevOps
 ```
+
+The goal is not to memorize Docker commands.
+
+The goal is to understand **why Docker works, how containers behave, how to troubleshoot them, and how Docker fits into real CI/CD and Kubernetes environments.**
+
+---
+
+## 🔗 Related Learning
+
+### Git Mastery
+
+Git fundamentals and DevOps-oriented Git workflows:
+
+https://github.com/buildwithnarayan/git-mastery
+
+### Kubernetes Mastery
+
+Kubernetes will be the next major learning track after Docker Mastery.
+
+---
 
 ## 🏷️ Versioning
 
-Docker-Mastery follows semantic versioning for major learning milestones.
-
-Example:
+Docker Mastery follows Semantic Versioning:
 
 ```text
-v0.1.0 → D01
-v0.2.0 → D02
-v0.3.0 → D03
-...
-v1.0.0 → Docker-Mastery completed
+MAJOR.MINOR.PATCH
 ```
 
-## 🔗 Related Repository
+Examples:
 
-- [Git-Mastery](https://github.com/buildwithnarayan/git-mastery)
+```text
+v1.0.0
+v1.1.0
+v1.1.1
+```
+
+### Current version
+
+**v1.0.0**
+
+This release represents completion of the initial D01–D15 Docker learning track.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome.
+
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before submitting changes.
+
+---
+
+## 🔐 Security
+
+Please read [SECURITY.md](SECURITY.md) for reporting security-related issues.
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+See [LICENSE](LICENSE).
+
+---
 
 ## 👨‍💻 Author
 
 **Narayan Prasad**
 
-GitHub: [@buildwithnarayan](https://github.com/buildwithnarayan)
+DevOps Technical Lead
+
+GitHub: https://github.com/buildwithnarayan
 
 ---
 
-> 🚀 Learn the technology. Understand the reason. Practice it. Build with it.
+## ⭐ Support the Project
+
+If this repository helps you learn Docker and DevOps:
+
+- ⭐ Star the repository
+- Fork it
+- Practice the labs
+- Share improvements
+- Open issues when you find problems
+
+---
+
+## 🚀 Next Step
+
+Docker Mastery is complete through **D15**.
+
+The next learning track is:
+
+# ☸️ Kubernetes Mastery
